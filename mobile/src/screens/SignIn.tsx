@@ -24,8 +24,6 @@ export function SignIn() {
             Não utilizamos nenhuma informação além {`\n`}
             do seu e-mail para criação de sua conta.
         </Text>
-
-
     </Center>
     )
 }
