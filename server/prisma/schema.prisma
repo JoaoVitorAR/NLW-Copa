@@ -41,6 +41,7 @@ model User {
   id        String   @id @default(cuid())
   name      String
   email     String   @unique
+  googleId  String?  @unique
   avatarUrl String? //transforma um campo nullable(vazio) (avatar opcional)
   createdAt DateTime @default(now())
 
